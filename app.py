@@ -7,7 +7,7 @@ st.title("📱 My Custom ChatGPT")
 
 # 2. Configuration (You can get a free API key at aistudio.google.com)
 # For now, this code will ask you for the key in the sidebar
-api_key = st.sidebar.text_input("Enter Gemini API Key", type="password")
+api_key = st.sidebar.text_input("AIzaSyC3kIDNBw5vBT6VO7KMuGp1lbBGB9oHymU", type="trashbot")
 
 if api_key:
     genai.configure(api_key=api_key)
